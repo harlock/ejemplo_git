@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Middleware\CheckUser;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AdrianController; 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,6 +34,12 @@ Route::post("posts",[PostController::class,"store"])->name("posts.new");
 
 Route::middleware([checkUser::class])->group(function(){
     Route::resource('posts', PostController::class)->except(["index","create","store"]);
+
+
 });
 
 Route::resource("users",UserController::class);
+
+Route::get("adrian",[AdrianController::class,"index"])->name("adrian.index");
+
+
