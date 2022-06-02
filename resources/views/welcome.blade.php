@@ -43,6 +43,7 @@
                         <a class="ml-4 text-sm text-gray-700 underline" href="{{url('/marco')}}">Marco</a>
                     <a href="{{url('estrella')}}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Estrella</a>
                     <a href="{{ url('luis') }}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Luis</a>
+                    <a href="{{ url('luis_kike') }}" class="text-sm text-gray-700 dark:text-gray-500 underlin">kike</a>
                     <a href="{{url('chavez')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Chávez</a>
                     <a href="{{url('mike')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Miguel</a>
                     <a href="{{url('adrian')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Adrian</a>
