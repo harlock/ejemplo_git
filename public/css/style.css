@@ -2,8 +2,18 @@
     max-width: 900px;
 }
 .navbar{
+<<<<<<< HEAD
     color: #333333;
     background: #e5ca42;
+=======
+<<<<<<< HEAD
+    color: darkslategray;
+    background: darkseagreen;
+=======
+    color: #333333;
+    background: #e5ca42;
+>>>>>>> 299fcad08b5ca2cfeb7594f8a2ca3987ad9b298f
+>>>>>>> 8651370242d488e9b9c5b5c4305d3e9640974f19
 }
 
 .navbar-nav a {
@@ -11,6 +21,27 @@
 }
 
 #titulo h1{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    color: #4a5568;
+}
+
+#titulo2 h1{
+    color: #4a5568;
+}
+
+#relaciones h1{
+    color: #4a5568;
+}
+#silla{
+    color: #4a5568;
+}
+
+#contacto h1{
+    color: #4a5568;
+=======
+>>>>>>> 8651370242d488e9b9c5b5c4305d3e9640974f19
     color: slategray;
 }
 
@@ -27,6 +58,10 @@
 
 #contacto h1{
     color: slategray;
+<<<<<<< HEAD
+=======
+>>>>>>> 299fcad08b5ca2cfeb7594f8a2ca3987ad9b298f
+>>>>>>> 8651370242d488e9b9c5b5c4305d3e9640974f19
 }
 .credits a {
     text-decoration: none;
@@ -36,5 +71,18 @@
     width: 400px;
 }
 img {
+<<<<<<< HEAD
     width: 500px;
+=======
+<<<<<<< HEAD
+    width: 300px;
+}
+
+#silk {
+    width: 400px;
+
+=======
+    width: 500px;
+>>>>>>> 299fcad08b5ca2cfeb7594f8a2ca3987ad9b298f
+>>>>>>> 8651370242d488e9b9c5b5c4305d3e9640974f19
 }

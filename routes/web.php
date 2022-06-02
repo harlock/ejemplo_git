@@ -69,6 +69,12 @@ Route::get("/marco",function (){
 
 Route::resource("users",UserController::class);
 
+
 Route::get("/ale",function(){
     return view("ale.index");
+});
+
+Route::get('/pedro', function () {
+    return view('pedro.index');
+
 });

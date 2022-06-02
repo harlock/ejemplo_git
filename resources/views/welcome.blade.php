@@ -39,6 +39,8 @@
                         @endif
                         
                     @endauth
+                    <a href="{{url('ale')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Alejandra</a>
+                        <a class="ml-4 text-sm text-gray-700 underline" href="/pedro">Pedro</a>
                         <a class="ml-4 text-sm text-gray-700 underline" href="{{url('/marco')}}">Marco</a>
                     <a href="{{url('estrella')}}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Estrella</a>
                     <a href="{{ url('luis') }}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Luis</a>
