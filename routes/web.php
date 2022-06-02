@@ -5,6 +5,7 @@ use App\Http\Controllers\PostController;
 use App\Http\Middleware\CheckUser;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LuisController;
+use App\Http\Controllers\AdrianController; 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,9 +39,13 @@ Route::get('estrella', function () {
 
 Route::middleware([checkUser::class])->group(function(){
     Route::resource('posts', PostController::class)->except(["index","create","store"]);
+
+
 });
 
 Route::resource("users",UserController::class);
+
+Route::get("adrian",[AdrianController::class,"index"])->name("adrian.index");
 
 
 Route::get ("luis",[LuisController::class,"index"])->name("luis.index");
