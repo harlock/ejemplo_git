@@ -36,3 +36,6 @@ Route::middleware([checkUser::class])->group(function(){
 });
 
 Route::resource("users",UserController::class);
+Route::get("anabel",function(){
+    return view("anabel.index");
+});
