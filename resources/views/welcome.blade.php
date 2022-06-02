@@ -21,7 +21,10 @@
         </style>
     </head>
     <body class="antialiased">
+
+
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -32,15 +35,20 @@
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
                         @endif
-                    @endauth
-                    
-                    
+                    @endauth    
                 <a class="ml-4 text-sm text-gray-600" underline href="/JDaniel">JDaniel</a>
-
-                        
+            <a href="{{ url('anabel') }}" class="text-sm text-gray-700 underline">Anabel</a>
+                    <a href="{{url('ale')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Alejandra</a>
+                        <a class="ml-4 text-sm text-gray-700 underline" href="/pedro">Pedro</a>
+                        <a class="ml-4 text-sm text-gray-700 underline" href="{{url('/marco')}}">Marco</a>
+                    <a href="{{url('estrella')}}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Estrella</a>
+                    <a href="{{ url('luis') }}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Luis</a>
+                    <a href="{{url('chavez')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Chávez</a>
+                    <a href="{{url('mike')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Miguel</a>
+                    <a href="{{url('adrian')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Adrian</a>
+                        <a style="color: #c7eed8; text-align: center" href="{{url('JD')}}">Juan Diego</a>
                 </div>
             @endif
-
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
@@ -49,7 +57,6 @@
                         </g>
                     </svg>
                 </div>
-
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
