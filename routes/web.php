@@ -86,3 +86,7 @@ Route::get('/pedro', function () {
     return view('pedro.index');
 });
 
+Route::get('evodio', function () {
+    return view('JesusEvodio.index');
+});
+
