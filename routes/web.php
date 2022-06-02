@@ -32,10 +32,23 @@ Route::get("posts",[PostController::class,"index"])->name("posts.index");
 Route::get("posts/create",[PostController::class,"create"])->name("posts.create");
 Route::post("posts",[PostController::class,"store"])->name("posts.new");
 
+Route::get('estrella', function () {
+    return view('estrella/index');
+});
+
 Route::middleware([checkUser::class])->group(function(){
     Route::resource('posts', PostController::class)->except(["index","create","store"]);
 });
 
 Route::resource("users",UserController::class);
 
+
 Route::get ("luis",[LuisController::class,"index"])->name("luis.index");
+
+Route::get( "/chavez", function() {
+    return view("chavez.index");
+});
+Route::get("/mike",function(){
+    return view("mike.inicio");
+});
+
