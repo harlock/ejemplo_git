@@ -1,0 +1,40 @@
+.container {
+    max-width: 900px;
+}
+.navbar{
+    color: #333333;
+    background: #e5ca42;
+}
+
+.navbar-nav a {
+    color: tomato;
+}
+
+#titulo h1{
+    color: slategray;
+}
+
+#villanos h1{
+    color: slategray;
+}
+
+#relaciones h1{
+    color: slategray;
+}
+#silla{
+    color: slategray;
+}
+
+#contacto h1{
+    color: slategray;
+}
+.credits a {
+    text-decoration: none;
+    color: black;
+}
+#main-image {
+    width: 400px;
+}
+img {
+    width: 500px;
+}
