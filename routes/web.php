@@ -36,3 +36,7 @@ Route::middleware([checkUser::class])->group(function(){
 });
 
 Route::resource("users",UserController::class);
+
+Route::get('/JDaniel', function () {
+    return view('JDaniel.index');
+});
