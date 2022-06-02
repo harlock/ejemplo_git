@@ -21,9 +21,13 @@
         </style>
     </head>
     <body class="antialiased">
+
+
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+
                     @auth
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
@@ -33,10 +37,14 @@
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
                         @endif
                     @endauth
-
                         <a class="ml-4 text-sm text-gray-700 underline" href="/pedro">Pedro</a>
-
-
+                        <a class="ml-4 text-sm text-gray-700 underline" href="{{url('/marco')}}">Marco</a>
+                    <a href="{{url('estrella')}}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Estrella</a>
+                    <a href="{{ url('luis') }}" class="text-sm text-gray-700 dark:text-gray-500 underlin">Luis</a>
+                    <a href="{{url('chavez')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Chávez</a>
+                    <a href="{{url('mike')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Miguel</a>
+                    <a href="{{url('adrian')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Adrian</a>
+                        <a style="color: #c7eed8; text-align: center" href="{{url('JD')}}">Juan Diego</a>
                 </div>
             @endif
 

@@ -2,8 +2,13 @@
     max-width: 900px;
 }
 .navbar{
+<<<<<<< HEAD
     color: darkslategray;
     background: darkseagreen;
+=======
+    color: #333333;
+    background: #e5ca42;
+>>>>>>> 299fcad08b5ca2cfeb7594f8a2ca3987ad9b298f
 }
 
 .navbar-nav a {
@@ -11,6 +16,7 @@
 }
 
 #titulo h1{
+<<<<<<< HEAD
     color: #4a5568;
 }
 
@@ -27,6 +33,24 @@
 
 #contacto h1{
     color: #4a5568;
+=======
+    color: slategray;
+}
+
+#villanos h1{
+    color: slategray;
+}
+
+#relaciones h1{
+    color: slategray;
+}
+#silla{
+    color: slategray;
+}
+
+#contacto h1{
+    color: slategray;
+>>>>>>> 299fcad08b5ca2cfeb7594f8a2ca3987ad9b298f
 }
 .credits a {
     text-decoration: none;
@@ -36,10 +60,14 @@
     width: 400px;
 }
 img {
+<<<<<<< HEAD
     width: 300px;
 }
 
 #silk {
     width: 400px;
 
+=======
+    width: 500px;
+>>>>>>> 299fcad08b5ca2cfeb7594f8a2ca3987ad9b298f
 }
