@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Middleware\CheckUser;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\LuisController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,3 +37,5 @@ Route::middleware([checkUser::class])->group(function(){
 });
 
 Route::resource("users",UserController::class);
+
+Route::get ("luis",[LuisController::class,"index"])->name("luis.index");
