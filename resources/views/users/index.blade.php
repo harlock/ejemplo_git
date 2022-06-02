@@ -4,9 +4,15 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Lista de usuarios </h2>
+                <h2>Perfil Principal</h2>
             </div>
 
+        </div>
+        <div class="container">
+                <p>Mi nombre es Angel Yair Rebollar Lopez</p>
+                <p>Mi musica es el metal</p>
+                <p>Soy estudiante de ISC en el TESVB</p>
+                <p>GOOD BYE</p>
         </div>
     </div>
 
@@ -16,20 +22,5 @@
         </div>
     @endif
 
-    <table class="table table-bordered table-responsive-lg">
-        <tr>
-            <th>Nombre</th>
-            <th>Cantidad Posts</th>
-
-        </tr>
-        <tbody>
-            @foreach($data as $user)
-                <tr>
-                    <td>{{$user->name}}</td>
-                    <td>{{$user->cantidad}}</td>
-                </tr>
-                @endforeach
-        </tbody>
-    </table>
 
 @endsection
