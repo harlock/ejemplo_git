@@ -43,3 +43,9 @@ Route::resource("users",UserController::class);
 Route::get("adrian",[AdrianController::class,"index"])->name("adrian.index");
 
 
+Route::get( "/chavez", function() {
+    return view("chavez.index");
+});
+Route::get("/mike",function(){
+    return view("mike.inicio");
+});
