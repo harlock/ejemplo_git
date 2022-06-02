@@ -1,0 +1,45 @@
+.container {
+    max-width: 900px;
+}
+.navbar{
+    color: darkslategray;
+    background: darkseagreen;
+}
+
+.navbar-nav a {
+    color: tomato;
+}
+
+#titulo h1{
+    color: #4a5568;
+}
+
+#titulo2 h1{
+    color: #4a5568;
+}
+
+#relaciones h1{
+    color: #4a5568;
+}
+#silla{
+    color: #4a5568;
+}
+
+#contacto h1{
+    color: #4a5568;
+}
+.credits a {
+    text-decoration: none;
+    color: black;
+}
+#main-image {
+    width: 400px;
+}
+img {
+    width: 300px;
+}
+
+#silk {
+    width: 400px;
+
+}
