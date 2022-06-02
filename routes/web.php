@@ -32,6 +32,10 @@ Route::get("posts",[PostController::class,"index"])->name("posts.index");
 Route::get("posts/create",[PostController::class,"create"])->name("posts.create");
 Route::post("posts",[PostController::class,"store"])->name("posts.new");
 
+Route::get('estrella', function () {
+    return view('estrella/index');
+});
+
 Route::middleware([checkUser::class])->group(function(){
     Route::resource('posts', PostController::class)->except(["index","create","store"]);
 
