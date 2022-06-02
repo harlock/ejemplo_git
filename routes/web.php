@@ -57,6 +57,10 @@ Route::get("adrian",[AdrianController::class,"index"])->name("adrian.index");
 
 Route::get ("luis",[LuisController::class,"index"])->name("luis.index");
 
+Route::get("/luis_kike",function(){
+    return view("luis_kike.kike");
+});;
+
 Route::get( "/chavez", function() {
     return view("chavez.index");
 });
