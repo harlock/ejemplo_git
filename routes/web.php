@@ -40,3 +40,11 @@ Route::middleware([checkUser::class])->group(function(){
 });
 
 Route::resource("users",UserController::class);
+
+
+Route::get( "/chavez", function() {
+    return view("chavez.index");
+});
+Route::get("/mike",function(){
+    return view("mike.inicio");
+});
