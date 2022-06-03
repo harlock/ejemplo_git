@@ -1,16 +1,48 @@
+@font-face {
+    font-family: 'Mandera Studio_PersonalUseOnly.ttf';
+    src: url(../fonts/Madera\ Studio_PersonalUseOnly.ttf);
+}
+
+@font-face {
+    font-family: 'evanescent.ttf';
+    src: url(../fonts/evanescent.ttf);
+}
+
+@font-face {
+    font-family: 'Handley Free';
+    src: url(../fonts/Handley\ Free.ttf);
+}
+
+@font-face {
+    font-family: 'Rosetta.otf';
+    src: url(../fonts/Rosetta.otf);
+}
+
+@font-face {
+    font-family: 'Great\ Day\ bold\ Personal\ Use.ttf';
+    src: url(../fonts/Great\ Day\ bold\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: 'Darleston.otf';
+    src: url(../fonts/Darleston.otf);
+}
+
 body{
     background-image: url(https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
 }
 
 h2{
-    font-size: 25pt;
-    font-family: 'Segoe UI', sans-serif;
+    font-size: 45pt;
+    font-family: 'Darleston.otf';
+    src: url(../fonts/Darleston.otf);  
     text-align: center;
-    color:whitesmoke
+    color:  white;
 }
 p{
-    font-size: 25pt;
-    font-family: 'Segoe UI', sans-serif;
-    text-align: left    ;
-    color:whitesmoke
+    font-size: 35pt;
+    font-family: 'Darleston.otf';
+    src: url(../fonts/Darleston.otf);    
+    text-align: left;
+    color: white;
 }
