@@ -67,6 +67,9 @@ Route::get( "/chavez", function() {
 Route::get("/mike",function(){
     return view("mike.inicio");
 });
+Route::get('/Efrain', function () {
+    return view('Efrain.index');
+});
 
 
 Route::resource("users",UserController::class);

@@ -49,6 +49,7 @@
                     <a href="{{url('adrian')}}" class="text-sm text-gray-700 dark:text-gray-500 underline">Adrian</a>
                         <a style="color: #c7eed8; text-align: center" href="{{url('JD')}}">Juan Diego</a>
                         <a style="color: #1a202c; text-align: center" href="{{url('evodio')}}">Jesus Evodio</a>
+                        <a style="background: beige" class="btn btn-primary" href="{{ url('Efrain/') }}"> Efrain</a>
                 </div>
             @endif
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
