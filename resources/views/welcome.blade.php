@@ -153,9 +153,7 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="/example/dog.png" alt="i have no idea what i'm doing">
-                </div>
+    
             </div>
         </div>
     </body>
